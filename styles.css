@@ -3,14 +3,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: #E0EBF5;
     margin: 0%;
-    
-    
-    
-    
+        
 }
 p{
     color: #2C3E50;
 }
+
 /*En tête*/
 header{ /*Oraganisation du header couleur taille longueur etc*/ 
     background-color: #2C3E50;
@@ -58,6 +56,11 @@ nav ul li:hover{
     width: 60%;
     margin: auto;
     border-radius: 200px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+.apropos:hover{
+    transform: scale(1.1);
+    transition: 2s;
 }
 
 /*ligne 1*/
@@ -70,25 +73,41 @@ h2{
     text-decoration: underline;
     text-align: center;
     color: #2C3E50;
+    text-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+   font-size: 30px;
 }
 /*Projets*/
-.mesprojets{
+
+
+.projet{
+    display: flex;
+    justify-content: space-around;
     background-color: #fff1f1;
-    justify-content: center;
     margin: auto;
     width: 70%;
     height: 10%;
-    text-align: center;
     border-radius: 30px;
-    padding: 30px;
-    
+    padding: 75px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+.prj{
+    background:#fff1f1;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+    width: 300px;
+
+}
+.prj:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.prj img{
+    width: 100px;
+    margin-left: 90px;
 }
 
-.ligne{
-    width: 20%;
-    height: 5px;
-    background-color: #cfe7ff;
-}
+
 /*Compétences*/
 
 .competences{
@@ -99,6 +118,8 @@ h2{
     border-radius: 30px;
     text-align: center;
     padding: 50px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+
 
 }
 .cmpt{
@@ -115,7 +136,8 @@ h2{
     display: flex;
     justify-content: space-between;
     border-radius: 30px;
-    
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+
 }
 .image{
     width: 500px;
